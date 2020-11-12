@@ -1,4 +1,4 @@
-#Digit Recognizer
+# Digit Recognizer
 
 Digit Recognizer provides you an ability to draw a digit and get its predicted value from a Neural Net 
 model with a very simple interface.
@@ -9,12 +9,11 @@ Run run.py and draw the ugliest digit you can, and the model with recognize it w
 
 Drawn digit:
 
-<img src="/home/ilolio/PycharmProjects/Digit_Recognizer/img/examp_inp.png" alt="drawing" width="200"/>
+<img src="./img/examp_inp.png" alt="drawing" width="200"/>
 
 Prediction:
 
-<img src="/home/ilolio/PycharmProjects/Digit_Recognizer/img/examp_pred.jpg" alt="drawing"/>
-<br/>
+<img src="./img/examp_pred.jpg" alt="drawing"/>
 
 ## Summary
 * Accuracy of the model - 99.5%
