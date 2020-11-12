@@ -22,5 +22,10 @@ def pred_digit():
     im_array = im_array.reshape((28, 28, 1))
 
     pred = model.predict(np.array([im_array]))
+    pred_num = np.argmax(pred)
 
-    print(f"The digit you entered is {np.argmax(pred)}")
+    if pred_num != 10:
+        print(f"The digit you entered is {pred_num}")
+    else:
+        print(f"Not a digit")
+

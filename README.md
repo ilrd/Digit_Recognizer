@@ -3,7 +3,7 @@
 Digit Recognizer provides you an ability to draw a digit and get its predicted value from a Neural Net 
 model with a very simple interface.
 
-Run run.py and draw the ugliest digit you can, and the model with recognize it with 99.5% accuracy!
+Run run.py and draw the ugliest digit you can, and the model with classify it with 95% accuracy!
 
 ## Example
 
@@ -16,7 +16,7 @@ Prediction:
 <img src="./img/examp_pred.jpg" alt="drawing"/>
 
 ## Summary
-* Accuracy of the model - 99.5%
+* Accuracy of the model - 95%
 * Amount of data to train - ~4000 samples (Compared to 60000 samples in MNIST)
 * Model architecture - CNN
 * For graphics pygame library is used
@@ -31,3 +31,7 @@ accuracy. Handmade data was built using src/data/expand_dataset.py module.
 
 To get an input image of a digit from a user, pygame library was used. run.py implements all the pygame 
 part and after the user draws a digit run.py calls prediction.py to get the prediction from the model.
+
+## Non-digit Recognition (experimental)
+Draw something that is not a digit and model will classify it as non-digit while still being able to classify
+any digit if you draw it.
