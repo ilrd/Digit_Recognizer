@@ -9,11 +9,11 @@ Run run.py and draw the ugliest digit you can, and the model with recognize it w
 
 Drawn digit:
 
-<img src="/home/ilolio/PycharmProjects/Digit_Recognizer/img/examp_inp.png" alt="drawing" width="200"/>
+<img src="./img/examp_inp.png" alt="drawing" width="200"/>
 
 Prediction:
 
-<img src="/home/ilolio/PycharmProjects/Digit_Recognizer/img/examp_pred.jpg" alt="drawing"/>
+<img src="./img/examp_pred.jpg" alt="drawing"/>
 <br/>
 
 ## Summary
