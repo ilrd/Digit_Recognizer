@@ -1,4 +1,4 @@
-#Digit Recognizer
+# Digit Recognizer
 
 Digit Recognizer provides you an ability to draw a digit and get its predicted value from a Neural Net 
 model with a very simple interface.
@@ -14,7 +14,6 @@ Drawn digit:
 Prediction:
 
 <img src="./img/examp_pred.jpg" alt="drawing"/>
-<br/>
 
 ## Summary
 * Accuracy of the model - 99.5%
