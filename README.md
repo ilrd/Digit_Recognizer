@@ -17,7 +17,7 @@ Prediction:
 
 ## Methods and tools
 * Data Manipulation - Pandas, Numpy, PIL
-* Modeling - Keras (Tensorflow), sklearn
+* Modeling - Keras, sklearn
 * Graphics - pygame
 * Low amount of training data - ~4000 samples (Compared to 60000 samples in MNIST)
 
