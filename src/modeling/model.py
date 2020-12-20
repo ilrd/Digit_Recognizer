@@ -1,7 +1,7 @@
 from tensorflow import keras
 from tensorflow.keras import callbacks
 import tensorflow as tf
-from keras.datasets import mnist, fashion_mnist
+from tensorflow.keras.datasets import mnist, fashion_mnist
 import pickle
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -63,7 +63,7 @@ X_train, X_test = X_train / 255, X_test / 255
 y_train, y_test = to_categorical(y_train), to_categorical(y_test)
 
 # Data Augmentation
-from keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 train_datagen = ImageDataGenerator(
     rotation_range=20,
