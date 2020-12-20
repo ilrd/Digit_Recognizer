@@ -20,6 +20,7 @@ Prediction:
 * Modeling - Keras, sklearn
 * Graphics - pygame
 * Low amount of training data - ~4000 samples (Compared to 60000 samples in MNIST)
+* Deployment - docker
 
 ## Technical Details
 The model is a CNN trained on only 3000 digits from MNIST dataset and additional ~1000 digits drawn by me. 
