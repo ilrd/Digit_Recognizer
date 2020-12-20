@@ -15,11 +15,11 @@ Prediction:
 
 <img src="./img/examp_pred.jpg" alt="drawing"/>
 
-## Summary
-* Accuracy of the model - 95%
-* Amount of data to train - ~4000 samples (Compared to 60000 samples in MNIST)
-* Model architecture - CNN
-* For graphics pygame library is used
+## Methods and tools
+* Data Manipulation - Pandas, Numpy, PIL
+* Modeling - Keras, sklearn
+* Graphics - pygame
+* Low amount of training data - ~4000 samples (Compared to 60000 samples in MNIST)
 
 ## Technical Details
 The model is a CNN trained on only 3000 digits from MNIST dataset and additional ~1000 digits drawn by me. 
