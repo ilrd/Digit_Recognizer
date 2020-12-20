@@ -3,7 +3,7 @@
 Digit Recognizer provides you an ability to draw a digit and get its predicted value from a Neural Net 
 model with a very simple interface.
 
-Run run.py and draw the ugliest digit you can, and the model with classify it with 95% accuracy!
+Run run.py and draw the ugliest digit you can, and the model will classify it with 95% accuracy!
 
 ## Example
 
@@ -24,7 +24,7 @@ Prediction:
 
 ## Technical Details
 The model is a CNN trained on only 3000 digits from MNIST dataset and additional ~1000 digits drawn by me. 
-The model building and training performs in src/modeling/model.py.
+The model building and training perform in src/modeling/model.py.
 
 The additional digits are needed because pure MNIST doesn't serve as a good example of digits drawn using 
 computer mouse/touchpad. Hence, handmade data was necessary to build a digit recognizer with sufficient 
