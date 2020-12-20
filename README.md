@@ -34,5 +34,5 @@ To get an input image of a digit from a user, pygame library was used. run.py im
 part and after the user draws a digit run.py calls prediction.py to get the prediction from the model.
 
 ## Non-digit Recognition (experimental)
-Draw something that is not a digit and the model will classify it as non-digit while still being able to classify
+Draw something that is not a digit and the model will classify it as not-a-digit while still being able to classify
 any digit if you draw it.
